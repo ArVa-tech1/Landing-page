@@ -6,45 +6,49 @@
 }
 
 body {
-    background-color: rgb(173, 173, 173);
+    background-color: rgb(14, 13, 13);
 }
 
 .about__us {
-    border: 2px solid black;
-    width: 200px;
-    height: 250px;
+    border: 2px solid rgb(209, 209, 209);
+    width: 300px;
+    height: 300px;
     border-radius: 15px;
     padding: 20px;
-    background: rgba(150, 147, 147);
+    background: rgba(15, 15, 15);
     
 }
 .about__us h2 {
     font-size: 30px;
     margin-bottom: 10px ;
     text-align: center;
-    
+    color: white;
 }
 
 .about__us li {
     font-size: 19px;
     margin: 5px;
-    text-align: center;;
     display: block;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 24px;
+    color: white;
 }
 
 .our__service {
-    border: 2px solid black;
-    width: 200px;
-    height: 250px;
+    border: 2px solid rgb(209, 209, 209);
+    width: 300px;
+    height: 300px;
     border-radius: 15px;
     padding: 20px;
-    background: rgba(150, 147, 147);
+    background: rgba(15, 15, 15);
 }
 
 .our__service h2 {
     font-size: 30px;
     text-align: center;
     margin-bottom: 1rem;
+    color: white;
 }
 
 
@@ -52,42 +56,55 @@ body {
     font-size: 19px;
     list-style: none;
     text-align: center;
-    margin: 10px;
+    margin: 5px;
     display: block;
+    padding-top: 20px;
+    font-size: 24px;
+    color: white;
 }
 
 .prices {
-    border: 2px solid black;
-    width: 200px;
-    height: 250px;
+    border: 2px solid rgb(209, 209, 209);
+    width: 300px;
+    height: 300px;
     border-radius: 15px;
     padding: 20px;
-    background: rgba(150, 147, 147);
+    background: rgba(15, 15, 15);
+
 }
 
 .prices h2 {
     font-size: 30px;
     text-align: center;
     margin-bottom: 1rem;
+    color: white;
 }
 
 .prices li {
     font-size: 19px;
     list-style: none;
     text-align: center;
-    margin: 10px;
+    margin: 5px;
     display: block;
+    padding-top: 20px;
+    font-size: 24px;
+    color: white;
 }
 
 .container {
     display: flex;
-    
-    justify-content: space-around;
+    gap: 15vh;
+    justify-content: flex-end;
+    padding: 10vh;
+    padding-top: 0 ;
+    flex-wrap: wrap;
+    box-shadow: rgb(214, 214, 214);
+            
 }
 
 .header {
     text-align: center;
-    border: 2px solid black;
+    border: 2px solid rgb(5, 5, 5);
     margin-bottom: 30px;
     background-color: rgb(218, 87, 87);
 
@@ -166,4 +183,25 @@ button:hover {
     background: gray;
     border-radius: 5px;
     transition: 0.5s;
+}
+
+.info-container {
+    font-size: 27px;
+    border-top: 2px solid rgb(209, 209, 209);;;
+    max-height: max-content;
+    max-width: 300px;
+    
+}
+
+main {
+    display: flex;           /* Выстраивает текст и контейнер с карточками в один ряд */
+    align-items: center;      /* Выравнивает текст по центру относительно высоты карточек */
+    justify-content: center; /* Центрирует всю конструкцию по середине экрана */
+    gap: 50px;
+    padding: 50px;               /* Расстояние между линией и карточками */
+    min-height: 80vh;
+    border: 2px solid black;
+    max-height: 80vh;
+    background: rgb(15, 15, 15);
+    color: white;
 }

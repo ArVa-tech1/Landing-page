@@ -4,29 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gym</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+
+    
+
+    <header class="header">
         <h1>Become stronger today!</h1>
         <h2>Sign up for training</h2>
 
-        <button type="submit">Sing up</button>
+        
+        <button type="button">Sing up</button>
+        
+        <nav class="header__nav">
+        <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+        
     </header>
 
     <main>
-        <article>
-            <h3>Why us?</h3>
+        <div class="info-container">
+            
+        <h2>Why should you choose us?</h2>
+        <p>Practice under the best conditions!</p>
+            
+        </div>
+        <div class="container">
+        <article class="about__us">
+            <h2>Our benefits</h2>
+        
 
             <ul>
-                <li>Modern equipment</li>
-                <li>Experienced trainers</li>
-                <li>Convenient location</li>
-                <li>24/7 access</li>
+                <li>Modern equipment;</li>
+                <li>Experienced trainers;</li>
+                <li>Convenient location;</li>
+                <li>24/7 access;</li>
             </ul>
         </article>
+        
 
-        <article>
-            <h2>Service</h2>
+        <article class="our__service">
+            <h2>Service:</h2>
 
             <ul>
                 <li>Personal training</li>
@@ -36,7 +59,7 @@
             </ul>
         </article>
 
-        <article>
+        <article class="prices">
             <h2>Prices</h2>
 
             <ul>
@@ -46,6 +69,8 @@
                 <li>1 year - 360€</li>
             </ul>
         </article>
+        </div>
+    </main>
 
         <article>
             <h2>Our coaches</h2>
@@ -66,7 +91,6 @@
             <h3>Start today!</h3>
             <button type="submit">Subscribe</button>
         </aside>
-    </main>
 
     <footer>
         <h3>Get in touch with us:</h3>
