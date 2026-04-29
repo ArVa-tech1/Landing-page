@@ -199,9 +199,33 @@ main {
     justify-content: center; /* Центрирует всю конструкцию по середине экрана */
     gap: 50px;
     padding: 50px;               /* Расстояние между линией и карточками */
-    min-height: 80vh;
+    min-height: 50vh;
     border: 2px solid black;
     max-height: 80vh;
     background: rgb(15, 15, 15);
     color: white;
+}
+
+.coaching{
+    display: flex;           
+    align-items: center;      
+    justify-content: center; 
+    gap: 50px;
+    padding: 50px;              
+    min-height: 50vh;
+    border: 2px solid black;
+    max-height: 50vh;
+    background: rgb(15, 15, 15);
+    color: white;
+}
+
+.coaching h2 {
+    font-size: 30px;
+    
+}
+
+.coach-cards {
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
 }
